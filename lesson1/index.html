@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lesson1</title>
+    <style>
+        div {
+            border: 1px solid grey;
+            border-radius: 10px;
+            padding: 10px;
+        }
+        /* 1.	Сделайте селектор, который выберет все абзацы <p>. */
+        p {
+            color: red;
+        }
+        /* 2.	Сделайте селектор, который выберет все абзацы <p> внутри дивов <div>.*/
+        div p {
+            color: green;
+        }
+        /* 3.	Сделайте селектор, который выберет все <h2> внутри дивов <div>. */
+            div h2 {
+                color: violet;
+            }
+        /* 4.	Сделайте селектор, который выберет абзацы <p> и <h2> одновременно. */
+        p, h2 {
+            text-decoration: underline;
+        }
+        /* 6.	Сделайте селектор, который выберет все <h2> внутри дивов <div> и одновременно все абзацы <p> внутри дивов <div>. */
+            div h2, div p {
+                text-decoration: line-through;
+            }
+        /* 9.	Сделайте селектор, который выберет все абзацы <p> из id=test и одновременно все <h2>  */
+        #test p, h2 {
+            color: blue;
+        }
+
+        /* 10.	Сделайте селектор, который выберет все элементы с классом test. */
+        .test {
+            color: aqua;
+        }
+        /* 11.	Сделайте селектор, который выберет все абзацы <p> с классом test. */
+        p.test {
+            background-color: red;
+        }
+        /* 13.	Сделайте селектор, который выберет все абзацы <p> с классом test и одновременно все <h2> с классом hello. */
+        p.test, h2.hello {
+            color: aquamarine;
+        }
+        /* 14.	Сделайте селектор, который выберет все абзацы <p> с классом test и одновременно все элементы с классом hello. */
+        p.test, .hello {
+            color: aliceblue;
+        }
+        /* 17.	Сделайте селектор, который выберет все абзацы <p> с классом test из дивов <div> с классом hello. */
+        div.hello p.test  {
+            color: aqua;
+        }
+        /* 19.	Сделайте селектор, который выберет все элементы, которые имеют одновременно 2 класса: test и hello. */
+        .test.hello { 
+            color: aliceblue;
+        }
+        /* 21.	Сделайте селектор, который выберет все <h2>, которые имеют одновременно 3 класса: test, hello и eee. */
+        h2.test.hello.eee {
+            color: red;
+        }
+       
+    </style>
+  </head>
+  <body>
+        <h2>h2</h2>
+        div
+      <div id="test">
+        div
+        <p class="test hello">
+          paragraph
+        </p>
+      </div>
+      <p>paragraph</p>
+    </div>
+    <h2>h2</h2>
+    <p>paragraph</p>
+  </body>
+</html>
