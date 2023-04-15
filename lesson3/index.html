@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      /* ul {
+        list-style-type: armenian;
+      }
+      li::marker {
+        content: "10.";
+      } */
+      table,
+      td,
+      th {
+        border: 1px solid black;
+      }
+      /* td {
+        height: 100px;
+        min-width: 200px;
+      } */
+    </style>
+  </head>
+  <body>
+    <table>
+      <caption>
+        Table 1
+      </caption>
+      <thead>
+        <tr>
+          <th>Заголовок 1</th>
+          <th>Заголовок 2</th>
+          <th>Заголовок 3</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>ячейка 1</td>
+          <td>ячейка 2</td>
+          <td>ячейка 3</td>
+        </tr>
+        <tr>
+          <td>ячейка 1</td>
+          <td>ячейка 2</td>
+          <td>ячейка 3</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td>ячейка 1</td>
+          <td>ячейка 2</td>
+          <td>ячейка 3</td>
+        </tr>
+      </tfoot>
+    </table>
+
+    <!-- <table width="100%" bgcolor="#a4f7b5" border="1">
+      <tr>
+        <td><p class="tabl">Ячейка 1</p></td>
+        <td rowspan="2" height="100px">
+          <p class="tabl">
+            Ячейка 2, высота 100px, растягивается на две строки
+          </p>
+        </td>
+        <td rowspan="4">
+          <p class="tabl">Ячейка 3, растягивается на 4 строки</p>
+        </td>
+      </tr>
+      <tr>
+        <td rowspan="2" height="100px">
+          <p class="tabl">
+            Ячейка 4, высота 100px, растягивается на две строки
+          </p>
+        </td>
+      </tr>
+      <tr>
+        <td><p class="tabl">Ячейка 5</p></td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <p class="tabl">Ячейка 6, растягивается на два столбца</p>
+        </td>
+      </tr>
+    </table> -->
+
+    <table>
+      <tr>
+        <td colspan="2">ячейка 1</td>
+        <td>ячейка 2</td>
+      </tr>
+      <tr>
+        <td>ячейка 3</td>
+        <td colspan="2">ячейка 4</td>
+      </tr>
+      <tr>
+        <td>ячейка 5</td>
+        <td>ячейка 6</td>
+        <td>ячейка 7</td>
+      </tr>
+    </table>
+
+    <table width="100%">
+      <tr>
+        <td>ячейка 1</td>
+        <td rowspan="2" height="100px">ячейка 2</td>
+        <td rowspan="4">ячейка 3</td>
+      </tr>
+      <tr>
+        <td rowspan="2" height="100px">ячейка 4</td>
+      </tr>
+      <tr>
+        <td>ячейка 5</td>
+      </tr>
+      <tr>
+        <td colspan="2">ячейка 6</td>
+      </tr>
+    </table>
+
+    <ol start="5" reversed>
+      <li>list item</li>
+      <li>list item</li>
+      <li>list item</li>
+      <li>list item</li>
+      <li>list item</li>
+    </ol>
+    <ul type="armenian">
+      <li>list item</li>
+      <li>list item</li>
+      <li>list item</li>
+      <li>list item</li>
+      <li>list item</li>
+    </ul>
+    <dl>
+      <dt>HTML</dt>
+      <dd>язык разметки</dd>
+      <dt>HTML</dt>
+      <dd>язык разметки</dd>
+    </dl>
+  </body>
+</html>
